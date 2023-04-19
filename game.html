@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"/>
+    <title>Document</title>
+
+</head>
+<body class="bg-black text-white">
+
+    <h1 class="text-center mt-5">Tic Tac Toe</h1>
+    <h3 class="text-center">Click on a empty space on the board to claim that spot</h3>
+
+    <div class="text-center" id="messageBox">
+        
+    </div>
+
+    <div class="container p-5 rounded grid text-center my-5 bg-secondary text-white" style="--bs-rows: 3; --bs-columns: 3" id="gameBoard">
+         <div class="row text-center border-bottom" style="height: 100px;">
+            <div class="col-4 border-end" id="box0"></div>
+            <div class="col-4 border-end" id="box1"></div>
+            <div class="col-4" id="box2"></div>
+        </div>
+        <div class="row text-center border-bottom" style="height: 100px;">
+            <div class="col-4 border-end" id="box3"></div>
+            <div class="col-4 border-end" id="box4"></div>
+            <div class="col-4" id="box5"></div>
+        </div>
+        <div class="row text-center" style="height: 100px;">
+            <div class="col-4 border-end" id="box6"></div>
+            <div class="col-4 border-end" id="box7"></div>
+            <div class="col-4" id="box8"></div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <button class="btn btn-info my-5" id="gameReset">Reset Game</button>
+    </div>
+
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
