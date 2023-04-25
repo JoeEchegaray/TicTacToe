@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"/>
-    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+    <title>Tic Tac Toe</title>
 
 </head>
+
 <body class="bg-black text-white">
 
     <h1 class="text-center mt-5">Tic Tac Toe</h1>
     <h3 class="text-center" id="messageBox">Click on a empty board space to Begin the Game!</h3>
 
-    <div class="container p-5 rounded grid text-center align-middle my-5 bg-secondary text-white" style="--bs-rows: 3; --bs-columns: 3" id="gameBoard">
-         <div class="row text-center d-flex align-middle border-bottom" style="height: 100px;">
+    <h3 class="text-center" id="turnBox"></h3>
+
+    <div class="container p-5 rounded grid text-center align-middle my-5 bg-secondary text-white"
+        style="--bs-rows: 3; --bs-columns: 3" id="gameBoard">
+        <div class="row text-center d-flex align-middle border-bottom" style="height: 100px;">
             <div class="col-4 border-end h1" id="box1"></div>
             <div class="col-4 border-end h1" id="box2"></div>
             <div class="col-4 h1" id="box3"></div>
@@ -40,4 +45,5 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="game.js"></script>
 </body>
+
 </html>
